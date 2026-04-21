@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b1220;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111a2e;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    background: #1a2438;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
